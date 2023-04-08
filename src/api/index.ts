@@ -1,5 +1,5 @@
 import axios from "axios"
-const BASE = 'http://localhost:8000/api/v1'
+const BASE = 'https://admin-api-0l7m.onrender.com/api/v1'
 
 export const getGigs = async () => {
     const response = await axios(`${BASE}/gigs`)
