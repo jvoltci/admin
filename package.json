@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/jvoltci/admin",
   "name": "admin",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.16",
     "@mui/styles": "^5.11.16",
