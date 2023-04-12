@@ -11,8 +11,8 @@ type Feature = {
     key: number
     name: string
     logo: React.FC<SVGProps<SVGSVGElement>>
-    head?: React.FC
-    body?: React.FC
+    head?: any
+    body?: any
 }
 export const features: Feature[] = [
     {
