@@ -10,6 +10,8 @@ type GigsType = {
     location: string
     giggers: string
     status: string
+    allocated: number
+    accepted: number
 }
 
 interface GigState {

@@ -29,3 +29,10 @@ export const unassignGigger = async (gigger: string, gig: string) => {
     })
     return response.data.data
 }
+
+export const allocateGigger = async (gig: string) => {
+    const response = await axios.post(`${BASE}/gigger/allocate`, {
+        gig: gig,
+    })
+    return response.data.data
+}
